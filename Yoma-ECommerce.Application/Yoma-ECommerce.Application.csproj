@@ -1,14 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <RootNamespace>Yoma_ECommerce.Application</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Yoma_ECommerceApp</RootNamespace>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.10">
       <PrivateAssets>all</PrivateAssets>
@@ -17,8 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Yoma-ECommerce.Application\Yoma-ECommerce.Application.csproj" />
-    <ProjectReference Include="..\Yoma-ECommerce.Infrastructure\Yoma-ECommerce.Infrastructure.csproj" />
+    <ProjectReference Include="..\Yoma-ECommerce.Domain\Yoma-ECommerce.Domain.csproj" />
   </ItemGroup>
 
 </Project>

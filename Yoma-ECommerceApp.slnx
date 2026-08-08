@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="Yoma-ECommerce.Application/Yoma-ECommerce.Application.csproj" Id="8305876c-709d-4e1b-bee5-88b247fc70ac" />
   <Project Path="Yoma-ECommerce.Domain/Yoma-ECommerce.Domain.csproj" Id="4d1bc3dd-be69-4709-a93c-825c8f7e35d5" />
+  <Project Path="Yoma-ECommerce.Infrastructure/Yoma-ECommerce.Infrastructure.csproj" Id="2e3ae864-fb95-4e3b-afec-9b20be0cf187" />
   <Project Path="Yoma-ECommerceApp/Yoma-ECommerceApp.csproj" />
 </Solution>

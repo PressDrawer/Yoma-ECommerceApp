@@ -1,4 +1,4 @@
-﻿namespace Yoma_ECommerce.Domain
+﻿namespace Yoma_ECommerce.Domain.Entities
 {
     public class BaseEntity
     {
